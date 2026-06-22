@@ -1,3 +1,6 @@
+### article https://www.nature.com/articles/s41591-023-02371-y#Sec34
+#Pan-cancer T cell atlas links a cellular stress response state to immunotherapy resistance
+
 naive <- c(
   "IL7R", "CCR7", "SELL", "FOXO1", "KLF2", "KLF3", "LEF1", "TCF7",
   "ACTN1", "FOXP1"
