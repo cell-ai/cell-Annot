@@ -1,0 +1,72 @@
+naive <- c(
+  "IL7R", "CCR7", "SELL", "FOXO1", "KLF2", "KLF3", "LEF1", "TCF7",
+  "ACTN1", "FOXP1"
+)
+
+activation_effector <- c(
+  "FAS", "FASLG", "CD44", "CD69", "CD38", "NKG7", "KLRB1", "KLRD1",
+  "KLRF1", "KLRG1", "KLRK1", "FCGR3A", "CX3CR1", "CD300A",
+  "FGFBP2", "ID2", "ID3", "PRDM1", "RUNX3", "TBX21", "ZEB2",
+  "BATF", "IRF4", "NR4A1", "NR4A2", "NR4A3", "PBX3", "ZNF683",
+  "HOPX", "FOS", "FOSB", "JUN", "JUNB", "JUND", "STAT1",
+  "STAT2", "STAT5A", "STAT6", "STAT4", "EOMES"
+)
+
+exhaustion <- c(
+  "PDCD1", "LAYN", "HAVCR2", "LAG3", "CD244", "CTLA4", "LILRB1",
+  "TIGIT", "TOX", "VSIR", "BTLA", "ENTPD1", "CD160", "LAIR1"
+)
+
+tcr_signaling <- c(
+  "CALM1", "CALM2", "CALM3", "CAST", "CD247", "CD3D", "CD3E",
+  "CD3G", "CSK", "DOK1", "DOK2", "FYN", "LCK", "NFATC2",
+  "NFATC1", "NFATC4", "NFATC3", "PLEK", "PAG1", "PTPN11",
+  "PTPN2", "PTPN22", "PTPN4", "PTPN6", "PTPN7", "PTPRC",
+  "PTPRCAP", "S100A10", "S100A11", "S100A13", "S100A4",
+  "S100A6", "ZAP70", "DUSP1", "DUSP2", "DUSP4", "DUSP5",
+  "DUSP10", "LAT", "PLCG1", "PLCG2", "PPP3CA", "PPP3CC",
+  "FOS", "FOSB", "FOSL1", "FOSL2", "JUN", "JUNB", "JUND",
+  "NR4A1", "NR4A2", "NR4A3", "BATF", "IRF4", "SH2D2A"
+)
+
+cytotoxicity <- c(
+  "GZMA", "GZMB", "GZMH", "GZMK", "GZMH", "GNLY", "PRF1",
+  "IFNG", "TNF", "SERPINB1", "SERPINB6", "SERPINB9",
+  "CTSA", "CTSB", "CTSC", "CTSD", "CTSW", "CST3",
+  "CST7", "CSTB", "LAMP1", "LAMP3", "CAPN2"
+)
+
+cytokine_receptor <- c(
+  "CSF1", "IL10RA", "IL16", "IL17RA", "IL18RAP", "IL21R",
+  "IL2RB", "IL2RG", "IL32", "IL9R", "ADAM10", "ADAM8",
+  "METRNL", "CD70", "XCL1", "XCL2"
+)
+
+chemokine_receptor <- c(
+  "CCR4", "CCR5", "CCR7", "CXCR3", "CXCR4", "CXCR5",
+  "CXCR6", "CCL3", "CCL4", "CCL4L1", "CCL4L2",
+  "CCL5", "CXCL13", "CXCL8"
+)
+
+senescence <- c(
+  "KLRK1", "IFNA1", "IFNAR1", "TAB1", "SESN2"
+)
+
+anergy <- c(
+  "NT5E", "IZUMO1R", "LAG3", "NRP1", "DGKA",
+  "CBLB", "RNF128", "ITCH", "NFATC2",
+  "EGR2", "EGR3", "NR4A1", "TOB1"
+)
+
+nfkb_signaling <- c(
+  "NFKB1", "NFKB2", "NFKBIA", "NFKBIB", "NFKBIZ",
+  "CHUK", "IKBKB", "IKBKG", "REL", "RELA", "RELB"
+)
+
+stress_response <- c(
+  "HIKESHI", "P4HB", "UBA52", "MAPK1", "RPA2", "RPA3",
+  "TNRC6A", "TNRC6B", "TNRC6C", "NUP210", "RBX1",
+  "UBB", "UBC", "CREBBP", "ETS1", "LAMTOR1", "EED",
+  "LAMTOR2", "HSP90AA1", "RBBP4", "LAMTOR4", "LAMTOR5",
+  "PSMB10", "CDKN1A", "ANAPC11"
+)
